@@ -13,11 +13,17 @@
 
 header {
     background-color: var(--header-color);
+    padding: 10px;
 }
 
 h1 {
     font-size: 30px;
     color: var(--text-color);
+    padding: 10px 0px;
+}
+
+#frmOrder {
+    padding: 10px;
 }
 
 section p {
