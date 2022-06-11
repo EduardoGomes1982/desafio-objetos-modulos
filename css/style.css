@@ -1,0 +1,33 @@
+:root {
+    --text-color: #aaafaa;
+    --header-color: #fcebc7;
+    --button-text-color: #edf5a5;
+    --button-color: #584b00;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--header-color);
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+section p {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.orderButtons {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    cursor: pointer;
+}
